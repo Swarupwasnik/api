@@ -1,0 +1,164 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbar {
+
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content: space-between;
+    text-align: center;
+    margin: 40px;
+    text-align: center;
+    color: black;
+}
+.linkname{
+    margin: 20px;
+    justify-content: space-between;
+    color: black;
+    font-weight: 700;
+
+}
+.linkname:hover{
+    color: cornflowerblue;
+}
+.navbar-brand{
+    font-size: 40px;
+}
+
+.navbar-nav{
+   display:flex;
+   justify-content: space-between;
+   margin: 20px;
+   justify-content: center;
+   text-align: center;
+   color: black;
+}
+
+.nav-item{
+    align-items: center;
+}
+
+#navbarNavAltMarkup{
+    position: absolute;
+    left: 330px;
+}
+
+.brand{
+    /* justify-content: center; */
+    margin-left: 600px;
+    display: inline-flex;
+    color: black;
+font-style: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}   
+.swar{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    color: gray;
+}
+
+.the{
+    display: inline-flex;
+    transform: rotate(270deg);
+    color: black;
+    font-weight: 800;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.hr{
+    width: 100%;
+    border: 2px soliq black;
+}
+/*blockhome  */
+
+.block_img{
+    width: 200px;
+}
+
+.block{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/* .block_img_home{
+
+    width: 200px;
+} */
+
+/* home style */
+
+.home_top{
+    display: flex;
+    
+
+}
+
+.top_img_home{
+    width: 810px;
+    height: 558px;
+    border: 8px solid white;
+    border-radius: 25px;
+}
+
+.top_img_home_1{
+    width: 520px;
+    height: 280px;
+    border: 8px solid white;
+    border-radius: 25px;
+    
+}
+
+.Extra_div_home{
+    display: flex;
+    flex-direction: column;
+}
+
+/* home */
+
+.blockhome_middle{
+    display: flex;
+}
+
+
+/* Native */
+
+.Nmain div{
+    position: relative;
+    left: 350px;
+}
+.Ntitle{
+    font-size: 25px;
+    
+}
+
+.Nimg{
+    width: 300px;
+}
+
+.Ncategory{
+    font-size: 30px;
+
+}
+.Ndescription{
+    font-size: 25px;
+
+}
+
+.Ncontainer{
+    width: 50%;
+}
+
+.Nicon{
+    font-size: 25px;
+    display: flex;
+    align-content: flex-start;
+    margin-left: -200px;
+
+}
